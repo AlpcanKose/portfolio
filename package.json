@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng b --configuration production --base-href https://alpcankose.github.io/portfolio/"
+    "deploy": "ng deploy --base-href /portfolio/"
   },
   "private": true,
   "dependencies": {
@@ -19,13 +19,13 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "ngx-typed-js": "^2.1.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4",
-    "aos": "^2.3.4",
-    "ngx-typed-js": "^2.1.1",
-    "jquery": "^3.6.3"
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.8",
@@ -33,6 +33,7 @@
     "@angular/compiler-cli": "^14.2.0",
     "@types/aos": "^3.0.4",
     "@types/jasmine": "~4.0.0",
+    "angular-cli-ghpages": "^1.0.5",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
